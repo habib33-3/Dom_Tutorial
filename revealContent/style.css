@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+
+.boxes {
+    border: 1px solid steelblue;
+    width: 50%;
+}
+
+.reveal-btn {
+    display: block;
+    padding: 30px;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
+}

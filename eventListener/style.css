@@ -1,0 +1,31 @@
+*{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#main-heading{
+    font-size: 56px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.boxes{
+    border: 1px solid rgb(36, 34, 34);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+button{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
